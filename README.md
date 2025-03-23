@@ -41,10 +41,12 @@ Final results can be found in the PPT presentation under the "Slides" folder.
 ## How to Replicate the Results
 1. Setup
 Clone the repository:
+```python
 git clone https://github.com/your-username/skin-cancer-classification.git
 cd skin-cancer-classification
-Install the required dependencies:
+```
 
+Install the required dependencies:
 ```python
 pip install -r requirements.txt
 ```
