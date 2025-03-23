@@ -62,12 +62,12 @@ Run the Jupyter notebook or Python script to train the models:
 
 ```python
 jupyter notebook skin_cancer_classification.ipynb
-```python
+```
 
 Alternatively, run the script directly:
 ```python
 python skin_cancer_classification.py
-```python
+```
 
 4. Evaluation
 The notebook includes code for evaluating the models on the test set and generating confusion matrices.
