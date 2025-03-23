@@ -31,16 +31,12 @@ Techniques and Models
 - Multiple convolutional layers with max pooling and dropout for regularization.
 - Achieved the highest test accuracy of ~76.7%.
 
-## Results
-Model	Training Accuracy	Validation Accuracy	Test Accuracy
-Feedforward Neural Network	67.52%	66.40%	66.40%
-Random Forest	65.93%	61.51%	61.16%
-Convolutional Neural Network	80.13%	75.74%	76.68%
-
 ## Key Findings:
 - CNN outperformed both FNN and Random Forest, demonstrating the effectiveness of convolutional layers in image classification tasks.
 - The Random Forest model struggled with the high-dimensional image data, resulting in lower accuracy compared to the neural network models.
 - Data augmentation and class balancing were critical in improving the performance of the CNN model, especially for minority classes.
+
+Final results can be found in the PPT presentation under the "Slides" folder. 
 
 ## How to Replicate the Results
 1. Setup
