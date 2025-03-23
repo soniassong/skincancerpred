@@ -51,43 +51,39 @@ Install the required dependencies:
 
 ```python
 pip install -r requirements.txt
+```
 
 2. Data Preparation
-Download the HAM10000 dataset from Kaggle.
-
-Place the dataset in the ./data directory.
+- Download the HAM10000 dataset from Kaggle.
+- Place the dataset in the ./data directory.
 
 3. Training the Models
 Run the Jupyter notebook or Python script to train the models:
 
-bash
-Copy
+```python
 jupyter notebook skin_cancer_classification.ipynb
-Alternatively, run the script directly:
+```python
 
-bash
-Copy
+Alternatively, run the script directly:
+```python
 python skin_cancer_classification.py
+```python
+
 4. Evaluation
 The notebook includes code for evaluating the models on the test set and generating confusion matrices.
-
 You can also visualize the training and validation accuracy curves to understand the model's performance over time.
 
-Impact
+## Impact
 This project demonstrates the potential of machine learning and deep learning in medical image analysis, particularly in the early detection of skin cancer. By comparing different models, we highlight the importance of choosing the right architecture for specific tasks. The CNN model's superior performance suggests that deep learning techniques can be highly effective in medical diagnostics, potentially aiding dermatologists in making more accurate and timely diagnoses.
 
-Future Work
-Larger Dataset: Experiment with a larger dataset to further improve model generalization.
+## Future Work
+- Larger Dataset: Experiment with a larger dataset to further improve model generalization.
+- Transfer Learning: Explore the use of pre-trained models like ResNet or EfficientNet for better performance.
+- Explainability: Incorporate techniques like Grad-CAM to provide insights into the model's decision-making process.
+- Deployment: Develop a web or mobile application for real-time skin cancer detection.
 
-Transfer Learning: Explore the use of pre-trained models like ResNet or EfficientNet for better performance.
-
-Explainability: Incorporate techniques like Grad-CAM to provide insights into the model's decision-making process.
-
-Deployment: Develop a web or mobile application for real-time skin cancer detection.
-
-Acknowledgments
+## Acknowledgments
 The HAM10000 dataset was sourced from Kaggle.
-
 This project was inspired by the need for accessible and accurate tools for skin cancer detection.
 
 Note: This project is for educational and research purposes only. It is not intended for clinical use. Always consult a medical professional for accurate diagnosis and treatment.
